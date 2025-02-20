@@ -2,6 +2,7 @@
 
 -- Resilient Distributed Datasets (RDD) is a fundamental data structure of Spark.<br>
 -- It is an immutable distributed collection of objects. <br>
+-- RDD lineage provides the foundation for Spark's fault tolerance by recording the sequence of transformations applied to data. <br>
 -- Each dataset in RDD is divided into logical partitions, which may be computed on different nodes of the cluster. <br>
 -- They are of 2 types  1. Transformation      2. Action
 --
@@ -12,6 +13,7 @@ Transformations
  -- Define the logical execution plan for data. <br>
  -- They are lazy, meaning they are only applied when an action is called. <br>
  -- Modify data structures, generating a new lineage <br>
+ -- They are of 2 types  1. Narrow      2. Wide
 
 --
 Actions 
