@@ -5,7 +5,6 @@
 <img align="right" alt="spark" src="https://github.com/urja2001/Databricks-Complete-Notes-HandsOn/blob/757cc322b1305084c643da90fda25d16eae9c97a/Chapter%200%20-%20Architecture%20of%20Spark/pics/SparkArchitecture_1.jpg" width="400" height="400" style="border-radius:50%">   
 </div> 
 
-
 1. The <b>driver program</b> in the Apache Spark architecture is called the <b>main program</b> of an application and creates <b>SparkContext</b>. A SparkContext consists of all the basic functionalities. <br>
 
 2. <b>Spark Driver</b> contains various other components, such as <b>DAG Scheduler, Task Scheduler and Block Manager</b>, which are responsible for <b>translating the user-written code into jobs</b> that are actually executed on the cluster.<br>
