@@ -1,0 +1,45 @@
+[
+  {
+  "id": 1,
+  "name": "Alice",
+  "address": {
+    "city": "New York",
+    "zip": "10001",
+    "country": "USA"
+  },
+  "contacts": [
+    {"type": "email", "value": "alice@example.com"},
+    {"type": "phone", "value": "1234567890"}
+  ],
+  "input_timestamp": "2024-02-25T12:00:00Z"
+},
+  {
+  "id": 2,
+  "name": "BoB",
+  "address": {
+    "city": "Los Angeles",
+    "zip": "10001",
+    "country": "USA"
+  },
+  "contacts": [
+    {"type": "email", "value": "bob@example.com"},
+    {"type": "phone", "value": "1234567890"}
+  ],
+  "input_timestamp": "2024-03-25T12:00:00Z"
+},
+{
+  "id": 3,
+  "name": "John",
+  "address": {
+    "city": "Pairs",
+    "zip": "10001",
+    "country": "UK"
+  },
+  "contacts": [
+    {"type": "email", "value": "john@example.com"},
+    {"type": "phone", "value": "1234567890"}
+  ],
+  "input_timestamp": "2024-01-25T12:00:00Z"
+}
+
+]
